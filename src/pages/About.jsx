@@ -24,6 +24,12 @@ function About() {
           Hassib Moddasser
         </a>
       </p>
+      <p className="text-lg text-gray-400">
+        Coded By:&nbsp;
+        <a className="text-white" href="https://github.com/leandroreiz">
+          Leandro Reis
+        </a>
+      </p>
     </>
   );
 }

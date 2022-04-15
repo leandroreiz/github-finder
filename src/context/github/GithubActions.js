@@ -1,10 +1,9 @@
-import { config } from '../../config/config';
 import axios from 'axios';
 
 const github = axios.create({
-  baseURL: config.REACT_APP_GITHUB_URL,
+  baseURL: process.env.REACT_APP_GITHUB_URL,
   headers: {
-    Authorization: `token ${config.REACT_APP_GITHUB_TOKEN}`,
+    Authorization: `token ${process.env.REACT_APP_GITHUB_TOKEN}`,
   },
 });
 

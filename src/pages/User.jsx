@@ -39,7 +39,7 @@ function User() {
     };
 
     getUserData();
-  }, []);
+  }, [dispatch, params.login]);
 
   const userDataElement = (
     <div className="w-full mx-auto lg:w-10/12">
